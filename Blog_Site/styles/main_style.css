@@ -1,0 +1,261 @@
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+    width: 100%;
+}
+
+.navigation {
+    padding: 10px;
+    margin-left: 10px;
+    color: firebrick;
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    font-family: helvetica;
+}
+
+    .navigation:hover {
+        color: blue;
+    }
+
+#navdiv {
+    padding-top: 10px;
+    background-color: black;
+}
+
+#banner {
+    color: pink;
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 60px;
+    padding: 40px;
+    text-align: center;
+}
+
+.wrapper {
+    width: 1140px;
+    height: 378px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.RIGHT {
+    width: 280px;
+    float: left;
+    margin-left: 15px;
+    font-family: Arial,Helvetica,sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: none repeat scroll 0% 0% white;
+}
+
+.LEFT {
+    padding-top: 20px;
+    margin-left: 107.5px;
+    width: 630px;
+    float: left;
+    background-color: white;
+}
+
+.right-caption {
+    padding: 10px;
+    background-color: #141F33;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: helvetica,sans-serif;
+    font-weight: bold;
+}
+
+.right-content {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-family: helvetica,sans-serif;
+}
+
+.left-caption {
+    padding: 10px;
+    background-color: #141F33;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: helvetica,sans-serif;
+    font-weight: bold;
+}
+
+    .left-caption:hover {
+        cursor: pointer;
+        font-size: 16px;
+        transition-duration: 0.2s;
+    }
+
+.left-content {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: helvetica,sans-serif;
+}
+
+#back-to-top {
+    display: block;
+    color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    opacity: .5;
+    font-size: 3em;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    background-color: hotpink;
+}
+
+    #back-to-top:hover {
+        opacity: 100;
+    }
+
+
+#btnCollapseAll {
+    background-color: hotpink;
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    opacity: .8;
+}
+
+    #btnCollapseAll:hover {
+        opacity: 1;
+    }
+
+.page-nav {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: helvetica,sans-serif;
+}
+
+.footer-container {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: helvetica,sans-serif;
+}
+
+.footer {
+    padding-top: 20px;
+    width: 100%;
+    float: left;
+    background-color: white;
+    padding-bottom: 40px;
+    border-top: dashed;
+    border-top-color: hotpink;
+    border-top-width: 1px;
+}
+
+#newer-entries {
+    background-color: #141F33;
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    opacity: .8;
+}
+
+    #newer-entries:hover {
+        opacity: 1;
+    }
+
+#older-entries {
+    background-color: #141F33;
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    opacity: .8;
+}
+
+    #older-entries:hover {
+        opacity: 1;
+    }
+
+#comment-section {
+    font-family: sans-serif;
+    color: black;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+#comment-box {
+    background-color:lightgrey;
+}
+
+#leave-a-comment{
+    font-family:sans-serif;
+    margin-left:30px;
+    padding-top:30px;
+}
+
+#leave-a-name{
+     font-family:sans-serif;
+     margin-left:30px;
+}
+
+#comment-name{
+    margin-left:20px;
+    width:200px;
+}
+
+#comment-text{
+    margin-left:10px;
+    width:605px;
+    height:100px;
+    resize:none;    
+}
+
+#btnAddcomment{
+    margin-left:15px;
+    margin-top:15px;
+    margin-bottom:30px;
+    background-color: #141F33;
+    color: white;
+    text-align: center;
+    opacity:.8;
+    width:200px;
+    height:60px;
+    border:hidden;
+}
+
+#btnAddcomment:hover{
+    opacity:1;
+}
+
+.Ccspace{
+    border-top-style:ridge;
+    border-top-color:pink;
+}
+
+.CcommentName{
+    padding-left:15px;
+    color:pink;
+}
+
+.CcommentText{
+    padding-left:15px;
+}
